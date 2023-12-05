@@ -10,7 +10,7 @@ TBC
 TBC
 
 ### Usage
-The webpage can be viewed at https://lico27.github.io/code-quiz and the JavaScript can be viewed in the repository - three files (logic.js, questions.js, and scores.js) currently at /starter/assets/js/.
+The webpage can be viewed at https://lico27.github.io/code-quiz and the JavaScript can be viewed in the repository - three files (logic.js, questions.js, and scores.js) currently at /assets/js/.
 
 ### Screenshot
 TBC
