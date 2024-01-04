@@ -1,14 +1,21 @@
+let startBtn = $("#start");
+let qTitle = $("#question-title");
+let startScreen = $("#start-screen");
+let questions = $("#questions");
+let qChoices = $("#choices");
 
-document.getElementById("start").addEventListener("click", startGame);
+startBtn.on("click", startGame);
 
 function getQuestion() {
-   document.querySelector("#question-title").innerText = questionSet[0].title;
+   qTitle.append(questionSet[0].title);
+   qChoices.append(questionSet[0].answers);
    
 }
 
 function startGame() {
-    document.querySelector("#start-screen").setAttribute("class", "hide");
-    document.querySelector("#questions").setAttribute("class", "start");
+    console.log(qChoices);
+    startScreen.addClass("hide");
+    questions.addClass("start").removeClass("hide");
     getQuestion();
 }
 
